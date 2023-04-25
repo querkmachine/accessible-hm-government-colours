@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOV.UK organisation brand colours</title>
+    <link rel="stylesheet" href="{{ '/govuk-frontend-4.6.0.min.css' | url }}">
+    <style>
+      .app-width-container { max-width: 1110px; }
+      .app-table { font-size: 14px; font-family: system-ui, sans-serif; text-align: left; }
+      .app-cell-defunct { color: #757575; }
+      .app-cell-colour { padding-inline: 10px; font-variant-numeric: tabular-nums; color: var(--c); background-color: var(--bg); }
+      .app-cell-colour + :not(.app-cell-colour) { padding-left: 20px; }
+      .app-cell-ratio { font-variant-numeric: tabular-nums; text-align: right; }
+    </style>
+  </head>
+  <body class="govuk-template__body govuk-!-padding-top-9 govuk-!-padding-bottom-9">
+    <div class="govuk-width-container app-width-container">
+      <h1 class="govuk-heading-xl">HMG organisation colours</h1>
+      <p class="govuk-body-l">Ministerial departments and high offices of HM Government that have existed between 2010 and the current day, with their brand colours and automatically generated <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>-compliant variants.</p>
+      <table class="govuk-table app-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Organisation name</th>
+            <th scope="col" class="govuk-table__header app-cell-colour" style="width: 8em;">Brand</th>
+            <th scope="col" class="govuk-table__header app-cell-colour" style="width: 8em;">Contrast-safe<br>(white, AA)</th>
+            <th scope="col" class="govuk-table__header app-cell-colour" style="width: 8em;">Contrast-safe<br>(white, AAA)</th>
+            <th scope="col" class="govuk-table__header app-cell-colour" style="width: 8em;">Contrast-safe<br>(black, AA)</th>
+            <th scope="col" class="govuk-table__header app-cell-colour" style="width: 8em;">Contrast-safe<br>(black, AAA)</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          {% for key, data in orgs %}
+            {% set c = data.colour %}
+            {% set aa1 = makeContrastSafe(c, "#ffffff", 4.5) %}
+            {% set aaa1 = makeContrastSafe(c, "#ffffff", 7) %}
+            {% set aa2 = makeContrastSafe(c, "#000000", 4.5) %}
+            {% set aaa2 = makeContrastSafe(c, "#000000", 7) %}
+            {% set cols = [aa1, aaa1, aa2, aaa2] %}
+            <tr class="govuk-table__row">
+              <th scope="row" class="govuk-table__header {%- if data.end %} app-cell-defunct{% endif %}">
+                {{ data.name }}
+                {% if data.unconfirmed %} (<abbr title="To Be Confirmed">TBC</abbr>){% endif %}
+                {% if data.start or data.end %}<br>({{ data.start }}&ndash;{{ data.end }}){% endif %}
+              </th>
+              <td class="govuk-table__cell app-cell-colour" style="--bg: {{ c }}; --c: {{ blackOrWhite(c) }};">
+                <strong>{{ c | upper }}</strong>
+              </td>
+              {% for col in cols %}
+                <td class="govuk-table__cell app-cell-colour" style="--bg: {{ col.colour }}; --c: {{ col.original.c2 }};">
+                  <strong>{{ col.colour | upper }}</strong>
+                  <br>{{ col.contrastRatio | round(2) }} ({{ col.wcagScore }})
+                </td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
