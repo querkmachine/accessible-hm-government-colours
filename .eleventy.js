@@ -42,5 +42,7 @@ module.exports = function (eleventyConfig) {
 		return Color(c1).isLight() ? "#000000" : "#ffffff";
 	});
 
-	return {};
+	return {
+		pathPrefix: "/hmg-department-colours/"
+	};
 };
