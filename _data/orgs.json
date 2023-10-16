@@ -1,299 +1,297 @@
 {
-	"attorney-generals-office": {
-		"name": "Attorney General's Office",
-		"acronym": "AGO",
-		"start": 1315,
-		"end": null,
-		"colour": "#a91c8e"
-	},
-	"cabinet-office": {
-		"name": "Cabinet Office",
-		"acronym": "CO",
-		"start": 1916,
-		"end": null,
-		"colour": "#0056b8"
-	},
-	"civil-service": {
-		"name": "Civil Service",
-		"acronym": "CS",
-		"start": null,
-		"end": null,
-		"colour": "#b2292e"
-	},
-	"department-for-business-trade": {
-		"name": "Department for Business and Trade",
-		"acronym": "DBT",
-		"start": 2023,
-		"end": null,
-		"colour": "#e52d13",
-		"unconfirmed": true
-	},
-	"department-for-business-energy-industrial-strategy": {
-		"name": "Department for Business, Energy and Industrial Strategy",
-		"acronym": "BEIS",
-		"start": 2016,
-		"end": 2023,
-		"colour": "#003479"
-	},
-	"department-for-business-innovation-skills": {
-		"name": "Department for Business, Innovation and Skills",
-		"acronym": "BIS",
-		"start": 2009,
-		"end": 2016,
-		"colour": "#003479"
-	},
-	"department-for-communities-local-government": {
-		"name": "Department for Communities and Local Government",
-		"acronym": "DCLG",
-		"start": 2006,
-		"end": 2018,
-		"colour": "#009999"
-	},
-	"department-for-culture-media-sport": {
-		"name": "Department for Culture, Media and Sport",
-		"acronym": "DCMS",
-		"start": 1997,
-		"end": 2017,
-		"colour": "#d40072"
-	},
-	"department-for-culture-media-sport-2023": {
-		"name": "Department for Culture, Media and Sport",
-		"acronym": "DCMS",
-		"start": 2023,
-		"end": null,
-		"colour": "#d6006e"
-	},
-	"department-for-digital-culture-media-sport": {
-		"name": "Department for Digital, Culture, Media and Sport",
-		"acronym": "DCMS",
-		"start": 2017,
-		"end": 2023,
-		"colour": "#d40072"
-	},
-	"department-for-education": {
-		"name": "Department for Education",
-		"acronym": "DfE",
-		"start": 2010,
-		"end": null,
-		"colour": "#003764"
-	},
-	"department-for-energy-security-net-zero": {
-		"name": "Department for Energy Security and Net Zero",
-		"acronym": "DESNZ",
-		"start": 2023,
-		"end": null,
-		"colour": "#00a33b",
-		"unconfirmed": true
-	},
-	"department-for-environment-food-rural-affairs": {
-		"name": "Department for Environment, Food and Rural Affairs",
-		"acronym": "Defra",
-		"start": 2001,
-		"end": null,
-		"colour": "#00af43"
-	},
-	"department-for-international-development": {
-		"name": "Department for International Development",
-		"acronym": "DIT",
-		"start": 1997,
-		"end": 2020,
-		"colour": "#002878"
-	},
-	"department-for-international-trade": {
-		"name": "Department for International Trade",
-		"acronym": "DIT",
-		"start": 2016,
-		"end": 2023,
-		"colour": "#cf102d"
-	},
-	"department-for-levelling-up-housing-communities": {
-		"name": "Department for Levelling Up, Housing and Communities",
-		"acronym": "DLUHC",
-		"start": 2021,
-		"end": null,
-		"colour": "#012169"
-	},
-	"department-for-science-innovation-technology": {
-		"name": "Department for Science, Innovation and Technology",
-		"acronym": "DSIT",
-		"start": 2023,
-		"end": null,
-		"colour": "#00f9f8",
-		"unconfirmed": true
-	},
-	"department-for-transport": {
-		"name": "Department for Transport",
-		"acronym": "DfT",
-		"start": 2002,
-		"end": null,
-		"colour": "#006853"
-	},
-	"department-for-work-pensions": {
-		"name": "Department for Work and Pensions",
-		"acronym": "DWP",
-		"start": 2001,
-		"end": null,
-		"colour": "#00bcb5"
-	},
-	"department-of-energy-climate-change": {
-		"name": "Department of Energy and Climate Change",
-		"acronym": "DECC",
-		"start": 2008,
-		"end": 2016,
-		"colour": "#009ddb"
-	},
-	"department-of-health": {
-		"name": "Department of Health",
-		"acronym": "DH",
-		"start": 1988,
-		"end": 2018,
-		"colour": "#00ad93"
-	},
-	"department-of-health-social-care": {
-		"name": "Department of Health and Social Care",
-		"acronym": "DHSC",
-		"start": 2018,
-		"end": null,
-		"colour": "#00a990"
-	},
-	"foreign-commonwealth-office": {
-		"name": "Foreign and Commonwealth Office",
-		"acronym": "FCO",
-		"start": 1968,
-		"end": 2020,
-		"colour": "#003e74"
-	},
-	"foreign-commonwealth-development-office": {
-		"name": "Foreign, Commonwealth and Development Office",
-		"acronym": "FCD)",
-		"start": 2020,
-		"end": null,
-		"colour": "#002269"
-	},
-	"hm-government": {
-		"name": "HM Government",
-		"acronym": "HMG",
-		"start": 1707,
-		"end": null,
-		"colour": "#266ebc"
-	},
-	"hm-revenue-customs": {
-		"name": "HM Revenue and Customs",
-		"acronym": "HMRC",
-		"start": 2005,
-		"end": null,
-		"colour": "#008476"
-	},
-	"hm-treasury": {
-		"name": "HM Treasury",
-		"acronym": "HMT",
-		"start": null,
-		"end": null,
-		"colour": "#b2292e"
-	},
-	"home-office": {
-		"name": "Home Office",
-		"acronym": "HO",
-		"start": 1782,
-		"end": null,
-		"colour": "#9e28b5"
-	},
-	"ministry-of-defence": {
-		"name": "Ministry of Defence",
-		"acronym": "MOD",
-		"start": 1964,
-		"end": null,
-		"colour": "#532a45"
-	},
-	"ministry-of-housing-communities-local-government": {
-		"name": "Ministry of Housing, Communities and Local Government",
-		"acronym": "MHCLG",
-		"start": 2018,
-		"end": 2021,
-		"colour": "#009999"
-	},
-	"ministry-of-justice": {
-		"name": "Ministry of Justice",
-		"acronym": "MoJ",
-		"start": 2007,
-		"end": null,
-		"colour": "#000000"
-	},
-	"northern-ireland-office": {
-		"name": "Northern Ireland Office",
-		"acronym": "NIO",
-		"start": 1972,
-		"end": null,
-		"colour": "#00205c"
-	},
-	"office-of-the-advocate-general-for-scotland": {
-		"name": "Office of the Advocate General for Scotland",
-		"acronym": null,
-		"start": 1999,
-		"end": null,
-		"colour": "#00205c"
-	},
-	"office-of-the-leader-of-the-house-of-commons": {
-		"name": "Office of the Leader of the House of Commons",
-		"acronym": "OLHC",
-		"start": 1721,
-		"end": null,
-		"colour": "#497629"
-	},
-	"office-of-the-leader-of-the-house-of-lords": {
-		"name": "Office of the Leader of the House of Lords",
-		"acronym": "OLHL",
-		"start": 1721,
-		"end": null,
-		"colour": "#9c182f"
-	},
-	"office-of-the-secretary-of-state-for-scotland": {
-		"name": "Office of the Secretary of State for Scotland",
-		"acronym": null,
-		"start": 2018,
-		"end": null,
-		"colour": "#00205c"
-	},
-	"office-of-the-secretary-of-state-for-wales": {
-		"name": "Office of the Secretary of State for Wales",
-		"acronym": null,
-		"start": 2018,
-		"end": null,
-		"colour": "#a8353a"
-	},
-	"prime-ministers-office-10-downing-street": {
-		"name": "Prime Minister's Office, 10 Downing Street",
-		"acronym": "PMO",
-		"start": 2022,
-		"end": null,
-		"colour": "#000000"
-	},
-	"scotland-office": {
-		"name": "Scotland Office",
-		"acronym": null,
-		"start": 1999,
-		"end": 2018,
-		"colour": "#002663"
-	},
-	"uk-export-finance": {
-		"name": "UK Export Finance",
-		"acronym": null,
-		"start": 1919,
-		"end": null,
-		"colour": "#cf102d"
-	},
-	"uk-trade-investment": {
-		"name": "UK Trade and Investment",
-		"acronym": null,
-		"start": 2003,
-		"end": 2016,
-		"colour": "#c80651"
-	},
-	"wales-office": {
-		"name": "Wales Office",
-		"acronym": null,
-		"start": 1999,
-		"end": 2018,
-		"colour": "#a33038"
-	}
+  "attorney-generals-office": {
+    "name": "Attorney General's Office",
+    "acronym": "AGO",
+    "start": 1315,
+    "end": null,
+    "colour": "#a91c8e"
+  },
+  "cabinet-office": {
+    "name": "Cabinet Office",
+    "acronym": "CO",
+    "start": 1916,
+    "end": null,
+    "colour": "#0056b8"
+  },
+  "civil-service": {
+    "name": "Civil Service",
+    "acronym": "CS",
+    "start": null,
+    "end": null,
+    "colour": "#b2292e"
+  },
+  "department-for-business-trade": {
+    "name": "Department for Business and Trade",
+    "acronym": "DBT",
+    "start": 2023,
+    "end": null,
+    "colour": "#e52d13"
+  },
+  "department-for-business-energy-industrial-strategy": {
+    "name": "Department for Business, Energy and Industrial Strategy",
+    "acronym": "BEIS",
+    "start": 2016,
+    "end": 2023,
+    "colour": "#003479"
+  },
+  "department-for-business-innovation-skills": {
+    "name": "Department for Business, Innovation and Skills",
+    "acronym": "BIS",
+    "start": 2009,
+    "end": 2016,
+    "colour": "#003479"
+  },
+  "department-for-communities-local-government": {
+    "name": "Department for Communities and Local Government",
+    "acronym": "DCLG",
+    "start": 2006,
+    "end": 2018,
+    "colour": "#009999"
+  },
+  "department-for-culture-media-sport": {
+    "name": "Department for Culture, Media and Sport",
+    "acronym": "DCMS",
+    "start": 1997,
+    "end": 2017,
+    "colour": "#d40072"
+  },
+  "department-for-culture-media-sport-2023": {
+    "name": "Department for Culture, Media and Sport",
+    "acronym": "DCMS",
+    "start": 2023,
+    "end": null,
+    "colour": "#d6006e"
+  },
+  "department-for-digital-culture-media-sport": {
+    "name": "Department for Digital, Culture, Media and Sport",
+    "acronym": "DCMS",
+    "start": 2017,
+    "end": 2023,
+    "colour": "#d40072"
+  },
+  "department-for-education": {
+    "name": "Department for Education",
+    "acronym": "DfE",
+    "start": 2010,
+    "end": null,
+    "colour": "#003764"
+  },
+  "department-for-energy-security-net-zero": {
+    "name": "Department for Energy Security and Net Zero",
+    "acronym": "DESNZ",
+    "start": 2023,
+    "end": null,
+    "colour": "#00a33b"
+  },
+  "department-for-environment-food-rural-affairs": {
+    "name": "Department for Environment, Food and Rural Affairs",
+    "acronym": "Defra",
+    "start": 2001,
+    "end": null,
+    "colour": "#00af43"
+  },
+  "department-for-international-development": {
+    "name": "Department for International Development",
+    "acronym": "DIT",
+    "start": 1997,
+    "end": 2020,
+    "colour": "#002878"
+  },
+  "department-for-international-trade": {
+    "name": "Department for International Trade",
+    "acronym": "DIT",
+    "start": 2016,
+    "end": 2023,
+    "colour": "#cf102d"
+  },
+  "department-for-levelling-up-housing-communities": {
+    "name": "Department for Levelling Up, Housing and Communities",
+    "acronym": "DLUHC",
+    "start": 2021,
+    "end": null,
+    "colour": "#012169"
+  },
+  "department-for-science-innovation-technology": {
+    "name": "Department for Science, Innovation and Technology",
+    "acronym": "DSIT",
+    "start": 2023,
+    "end": null,
+    "colour": "#00f9f8",
+    "unconfirmed": true
+  },
+  "department-for-transport": {
+    "name": "Department for Transport",
+    "acronym": "DfT",
+    "start": 2002,
+    "end": null,
+    "colour": "#006853"
+  },
+  "department-for-work-pensions": {
+    "name": "Department for Work and Pensions",
+    "acronym": "DWP",
+    "start": 2001,
+    "end": null,
+    "colour": "#00bcb5"
+  },
+  "department-of-energy-climate-change": {
+    "name": "Department of Energy and Climate Change",
+    "acronym": "DECC",
+    "start": 2008,
+    "end": 2016,
+    "colour": "#009ddb"
+  },
+  "department-of-health": {
+    "name": "Department of Health",
+    "acronym": "DH",
+    "start": 1988,
+    "end": 2018,
+    "colour": "#00ad93"
+  },
+  "department-of-health-social-care": {
+    "name": "Department of Health and Social Care",
+    "acronym": "DHSC",
+    "start": 2018,
+    "end": null,
+    "colour": "#00a990"
+  },
+  "foreign-commonwealth-office": {
+    "name": "Foreign and Commonwealth Office",
+    "acronym": "FCO",
+    "start": 1968,
+    "end": 2020,
+    "colour": "#003e74"
+  },
+  "foreign-commonwealth-development-office": {
+    "name": "Foreign, Commonwealth and Development Office",
+    "acronym": "FCD)",
+    "start": 2020,
+    "end": null,
+    "colour": "#002269"
+  },
+  "hm-government": {
+    "name": "HM Government",
+    "acronym": "HMG",
+    "start": 1707,
+    "end": null,
+    "colour": "#266ebc"
+  },
+  "hm-revenue-customs": {
+    "name": "HM Revenue and Customs",
+    "acronym": "HMRC",
+    "start": 2005,
+    "end": null,
+    "colour": "#008476"
+  },
+  "hm-treasury": {
+    "name": "HM Treasury",
+    "acronym": "HMT",
+    "start": null,
+    "end": null,
+    "colour": "#b2292e"
+  },
+  "home-office": {
+    "name": "Home Office",
+    "acronym": "HO",
+    "start": 1782,
+    "end": null,
+    "colour": "#9e28b5"
+  },
+  "ministry-of-defence": {
+    "name": "Ministry of Defence",
+    "acronym": "MOD",
+    "start": 1964,
+    "end": null,
+    "colour": "#532a45"
+  },
+  "ministry-of-housing-communities-local-government": {
+    "name": "Ministry of Housing, Communities and Local Government",
+    "acronym": "MHCLG",
+    "start": 2018,
+    "end": 2021,
+    "colour": "#009999"
+  },
+  "ministry-of-justice": {
+    "name": "Ministry of Justice",
+    "acronym": "MoJ",
+    "start": 2007,
+    "end": null,
+    "colour": "#000000"
+  },
+  "northern-ireland-office": {
+    "name": "Northern Ireland Office",
+    "acronym": "NIO",
+    "start": 1972,
+    "end": null,
+    "colour": "#00205c"
+  },
+  "office-of-the-advocate-general-for-scotland": {
+    "name": "Office of the Advocate General for Scotland",
+    "acronym": null,
+    "start": 1999,
+    "end": null,
+    "colour": "#00205c"
+  },
+  "office-of-the-leader-of-the-house-of-commons": {
+    "name": "Office of the Leader of the House of Commons",
+    "acronym": "OLHC",
+    "start": 1721,
+    "end": null,
+    "colour": "#497629"
+  },
+  "office-of-the-leader-of-the-house-of-lords": {
+    "name": "Office of the Leader of the House of Lords",
+    "acronym": "OLHL",
+    "start": 1721,
+    "end": null,
+    "colour": "#9c182f"
+  },
+  "office-of-the-secretary-of-state-for-scotland": {
+    "name": "Office of the Secretary of State for Scotland",
+    "acronym": null,
+    "start": 2018,
+    "end": null,
+    "colour": "#00205c"
+  },
+  "office-of-the-secretary-of-state-for-wales": {
+    "name": "Office of the Secretary of State for Wales",
+    "acronym": null,
+    "start": 2018,
+    "end": null,
+    "colour": "#a8353a"
+  },
+  "prime-ministers-office-10-downing-street": {
+    "name": "Prime Minister's Office, 10 Downing Street",
+    "acronym": "PMO",
+    "start": 2022,
+    "end": null,
+    "colour": "#000000"
+  },
+  "scotland-office": {
+    "name": "Scotland Office",
+    "acronym": null,
+    "start": 1999,
+    "end": 2018,
+    "colour": "#002663"
+  },
+  "uk-export-finance": {
+    "name": "UK Export Finance",
+    "acronym": null,
+    "start": 1919,
+    "end": null,
+    "colour": "#cf102d"
+  },
+  "uk-trade-investment": {
+    "name": "UK Trade and Investment",
+    "acronym": null,
+    "start": 2003,
+    "end": 2016,
+    "colour": "#c80651"
+  },
+  "wales-office": {
+    "name": "Wales Office",
+    "acronym": null,
+    "start": 1999,
+    "end": 2018,
+    "colour": "#a33038"
+  }
 }
