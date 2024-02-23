@@ -90,9 +90,16 @@
     "end": null,
     "colour": "#00af43"
   },
+  "department-for-exiting-the-european-union": {
+    "name": "Department for Exiting the European Union",
+    "acronym": "DExEU",
+    "start": 2016,
+    "end": 2020,
+    "colour": "#009fe3"
+  },
   "department-for-international-development": {
     "name": "Department for International Development",
-    "acronym": "DIT",
+    "acronym": "DID",
     "start": 1997,
     "end": 2020,
     "colour": "#002878"
@@ -163,7 +170,7 @@
   },
   "foreign-commonwealth-development-office": {
     "name": "Foreign, Commonwealth and Development Office",
-    "acronym": "FCD)",
+    "acronym": "FCDO",
     "start": 2020,
     "end": null,
     "colour": "#002269"
@@ -212,7 +219,7 @@
   },
   "ministry-of-justice": {
     "name": "Ministry of Justice",
-    "acronym": "MoJ",
+    "acronym": "MOJ",
     "start": 2007,
     "end": null,
     "colour": "#000000"
@@ -247,7 +254,7 @@
   },
   "office-of-the-secretary-of-state-for-scotland": {
     "name": "Office of the Secretary of State for Scotland",
-    "acronym": null,
+    "acronym": "OSSS",
     "start": 2018,
     "end": null,
     "colour": "#00205c"
