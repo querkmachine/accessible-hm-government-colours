@@ -115,7 +115,7 @@
     "name": "Department for Levelling Up, Housing and Communities",
     "acronym": "DLUHC",
     "start": 2021,
-    "end": null,
+    "end": 2024,
     "colour": "#012169"
   },
   "department-for-science-innovation-technology": {
@@ -216,6 +216,13 @@
     "start": 2018,
     "end": 2021,
     "colour": "#009999"
+  },
+  "ministry-of-housing-communities-local-government-2024": {
+    "name": "Ministry of Housing, Communities and Local Government",
+    "acronym": "MHCLG",
+    "start": 2024,
+    "end": null,
+    "colour": "#00625E"
   },
   "ministry-of-justice": {
     "name": "Ministry of Justice",
