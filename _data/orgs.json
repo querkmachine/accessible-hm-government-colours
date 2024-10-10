@@ -60,7 +60,7 @@
     "acronym": "DCMS",
     "start": 2023,
     "end": null,
-    "colour": "#d6006e"
+    "colour": "#ed1588"
   },
   "department-for-digital-culture-media-sport": {
     "name": "Department for Digital, Culture, Media and Sport",
@@ -88,7 +88,7 @@
     "acronym": "Defra",
     "start": 2001,
     "end": null,
-    "colour": "#00af43"
+    "colour": "#00a33b"
   },
   "department-for-exiting-the-european-union": {
     "name": "Department for Exiting the European Union",
@@ -123,8 +123,7 @@
     "acronym": "DSIT",
     "start": 2023,
     "end": null,
-    "colour": "#00f9f8",
-    "unconfirmed": true
+    "colour": "#00f8f8"
   },
   "department-for-transport": {
     "name": "Department for Transport",
@@ -173,7 +172,7 @@
     "acronym": "FCDO",
     "start": 2020,
     "end": null,
-    "colour": "#002269"
+    "colour": "#012069"
   },
   "hm-government": {
     "name": "HM Government",
@@ -201,7 +200,7 @@
     "acronym": "HO",
     "start": 1782,
     "end": null,
-    "colour": "#9e28b5"
+    "colour": "#732282"
   },
   "ministry-of-defence": {
     "name": "Ministry of Defence",
@@ -215,7 +214,7 @@
     "acronym": "MHCLG",
     "start": 2018,
     "end": 2021,
-    "colour": "#009999"
+    "colour": "#00625e"
   },
   "ministry-of-housing-communities-local-government-2024": {
     "name": "Ministry of Housing, Communities and Local Government",
@@ -278,7 +277,7 @@
     "acronym": "PMO",
     "start": 2022,
     "end": null,
-    "colour": "#000000"
+    "colour": "#0b0c0c"
   },
   "scotland-office": {
     "name": "Scotland Office",
@@ -286,6 +285,13 @@
     "start": 1999,
     "end": 2018,
     "colour": "#002663"
+  },
+  "serious-fraud-office": {
+    "name": "Serious Fraud Office",
+    "acronym": "SFO",
+    "start": 1987,
+    "end": null,
+    "colour": "#82368c"
   },
   "uk-export-finance": {
     "name": "UK Export Finance",
