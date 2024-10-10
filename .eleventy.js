@@ -71,6 +71,6 @@ export default function (eleventyConfig) {
   });
 
   return {
-    pathPrefix: "/hmg-department-colours/",
+    pathPrefix: "/accessible-hm-government-colours/",
   };
 }
