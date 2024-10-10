@@ -262,14 +262,14 @@
     "name": "Office of the Secretary of State for Scotland",
     "acronym": "OSSS",
     "start": 2018,
-    "end": null,
+    "end": 2024,
     "colour": "#00205c"
   },
   "office-of-the-secretary-of-state-for-wales": {
     "name": "Office of the Secretary of State for Wales",
     "acronym": null,
     "start": 2018,
-    "end": null,
+    "end": 2024,
     "colour": "#a8353a"
   },
   "prime-ministers-office-10-downing-street": {
@@ -285,6 +285,13 @@
     "start": 1999,
     "end": 2018,
     "colour": "#002663"
+  },
+  "scotland-office-2024": {
+    "name": "Scotland Office",
+    "acronym": null,
+    "start": 2024,
+    "end": null,
+    "colour": "#00205c"
   },
   "serious-fraud-office": {
     "name": "Serious Fraud Office",
@@ -312,6 +319,13 @@
     "acronym": null,
     "start": 1999,
     "end": 2018,
+    "colour": "#a33038"
+  },
+  "wales-office-2024": {
+    "name": "Wales Office",
+    "acronym": null,
+    "start": 2024,
+    "end": null,
     "colour": "#a33038"
   }
 }
